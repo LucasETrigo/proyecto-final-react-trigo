@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <NavBar /> 
-      <UserGreeting />
+      <UserGreeting greeting="Welcome to my E-Commerce"/>
     </div>
   );
 } 
