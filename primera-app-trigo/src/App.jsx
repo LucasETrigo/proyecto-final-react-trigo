@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <NavBar /> 
-      <UserGreeting greeting="Welcome to my E-Commerce"/>
+      <UserGreeting greeting="Welcome to NFTxHype"/>
     </div>
   );
 } 

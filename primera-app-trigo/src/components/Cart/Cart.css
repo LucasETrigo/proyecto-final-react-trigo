@@ -4,12 +4,11 @@
 
 .cart span:nth-child(1) {
     font-size: 25px;
-    color: #000;
+    color: #fff;
 }
 
 .cart span:nth-child(2) {
     padding: 0 3px;
-    background-color: #000;
     color: #fff;
     font-weight: bold;
     border-radius: 5px;
@@ -18,5 +17,5 @@
 }
 
 .cart span i:hover {
-    color: #5FBDDF;
+    color: #EF9B24;
 }

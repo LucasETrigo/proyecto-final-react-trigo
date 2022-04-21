@@ -6,17 +6,15 @@ import Cart from '../Cart/Cart';
 
 function NavBar(props) {
     return (
-        <div className='hero'>
             <nav>
-                <a href="index.html" className='logo'>Asic Argentina</a>
+                <a href="index.html" className='logo'>NFTxHype</a>
                 <ul>
-                    <li><a href='#'>INICIO</a></li>
-                    <li><a href='#'>SOBRE NOSOTROS</a></li>
-                    <li><a href='#'>PRODUCTOS</a></li>
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='#'>About</a></li>
+                    <li><a href='#'>Products</a></li>
                 </ul>
                 <Cart />
             </nav>
-        </div>
     );
 }
 
