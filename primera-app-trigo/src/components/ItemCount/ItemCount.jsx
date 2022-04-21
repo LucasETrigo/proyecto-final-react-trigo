@@ -1,15 +1,19 @@
 import React, { useState } from "react";
 import "./ItemCount.css";
 
-function ItemCount() {
-  const [count, setCount] = useState(1);
+function ItemCount({ stock, initial, onAdd }) {
+  const [count, setCount] = useState(initial);
 
   function handleAdd() {
-    setCount(count + 1);
+    if (count < stock) {
+      setCount(count + 1);
+    }
   }
 
   function handleSubstract() {
-    setCount(count - 1);
+    if (count > 0) {
+      setCount(count - 1);
+    }
   }
 
   return (
